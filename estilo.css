@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedor{
+    width: 100%;
+    margin: 5px;
+    border: 1px solid gray;
+    height: 730px;
+}
+#cabecera{
+    height: 100px;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    padding: 10px;
+    margin-right: 5px;
+    height: 100%;
+    font-family: helavatica;
+    text-transform: uppercase;
+    width: 40%;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#titulo h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#menu{
+    width: 60%;
+}
+#menu > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+
+}
+#menu a{
+    padding: 10px;
+    text-transform: uppercase;
+    color: darkslateblue;
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: dimgray;
+    color: white;
+}
+#contenido{
+    border: 1px solid rgb(0, 0, 8);
+    margin: 20px;
+    height: 77%;
+}
+#logo{
+    width: 20%;
+}
+#logo img{
+    width: 100%;
+    margin: 2px;
+}
+#seccion{
+    width: 100%;
+    margin: 35px;
+}
+#seccion h3{
+    color: blue;
+    margin-bottom: 19px;
+}
+.articulo{
+    margin-top: 20px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    color: black;
+    margin: 2%;
+}
+#precuelas{
+    border: 1px solid black;
+    margin: 10px;
+}
+.Pelicula{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+.Pelicula img{
+width: 28%;
+border: 2px solid gray ;
+}
+#regrasar > ul{
+   list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%; 
+}
+#regresar a{
+ padding: 10px;
+    text-transform: uppercase;
+    color: darkslateblue;
+    text-decoration: none;   
+}
+#regresar a:hover{
+  background-color: dimgray;
+    color: white;   
+}
+#titulo2 h3{
+ font-family: 'Times New Roman', Times, serif;
+ padding: 15px;
+}
